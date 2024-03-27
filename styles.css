@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffe7de; /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fcd1d7; /* Card background color */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #562135; /* Title color */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#image-container {
+    width: 400px; /* Set width to 400px */
+    height: 400px; /* Set height to 400px */
+    overflow: hidden; /* Hide overflow */
+    margin: 0 auto 20px; /* Center the container and add margin */
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop images to cover the container */
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add spacing between buttons */
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #c3829e; /* Button background color */
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e9b1cd; /* Button background color on hover */
+}
